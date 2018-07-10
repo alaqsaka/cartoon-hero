@@ -1,6 +1,13 @@
 html, body{
 	font-family: Arial, sans-serif;  
 	margin: 0;
+	background-color: grey;
+	margin: 0;
+}
+
+.container{
+	width: 80;
+	margin: 0 auto;
 }
 
 header{
@@ -8,6 +15,34 @@ header{
 	padding: 45px;
 	text-align: center;
 }
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo{
+	float: left;
+	width: 125px;
+	border: none;
+}
+
+nav{
+	font-size: 20px;
+	list-style: none;
+	background-color: none;
+	float: right;
+	font-weight: bold;
+    font-style: oblique;
+
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 
 h1{
 	font-size: 63px;
